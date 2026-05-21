@@ -78,6 +78,16 @@ python manage.py runserver
 The interactive browsable API will now be available in your browser at:
 `http://127.0.0.1:8000/api/mountains/`
 
+### 5. Running the Test Suite
+
+This project includes an automated suite of unit tests to validate API filter rules, default elevation thresholds, and fuzzy search queries against an isolated in-memory testing database.
+
+To execute the test runner, use Django's management interface:
+
+```bash
+python manage.py test
+```
+
 ## API Endpoints & Query Parameters
 
 ### Base URL
